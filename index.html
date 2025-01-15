@@ -1,0 +1,113 @@
+<html>
+    <!-- コメントアウト -->  
+    <head>
+        <meta charset="utf-8">
+        <title>作品の名前</title>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://use.fontawesome.com/releases/v6.2.0/css/all.css" rel="stylesheet">
+
+
+    </head>
+
+    <body>
+        HTML SCSSResult Skip Results Iframe
+        EDIT ON
+        <video poster="http://www.kiyoshiryujin.com/krwp/wp-content/themes/krwpddd/images/kr2524/kr2524_top3.jpg.jpg" playsinline autoplay muted loop>
+            <!-- mp4を作成した後、.webmに変換し両方挿入しとく --> 
+            <source src="kiyoshiryujin25.webm" type="video/webm">
+            <source src="kareshi_irunndatte.mp4" type="video/mp4">
+        </video>
+        <header>
+          <h1>作品の名前</h1>
+          <nav>
+            <a href="#">TOP</a>
+            <a href="#">ルール/遊び方</a>
+            <a href="#">制作過程</a>
+            <a href="#">あとがき</a>
+        </header>
+        <div class="title-moji">
+          <h2>SAKUHIN NO NAMAE.</h2>
+        </div>
+       
+
+        <div class="main">
+
+                <div class="about">
+                    <h3>ルール/遊び方</h3>
+                    <img src="kr2524_top.jpg" alt="" class="about-img">
+                    <div class="pearent"></div>
+                    <p>ルール説明をここに書く</p>
+                </div> 
+           
+        </div>
+
+        <div class="process">
+            <h3>制作過程</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/aojwJ7ZiTY4?si=GTPWIFt_ZLaXDMUd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+        </div>  
+
+        <div class="main">
+
+            <div class="about">
+                <h3>あとがき</h3>
+                <img src="ame_profile1.png" alt="" class="about-img">
+                <p>あめちゃんです！主に体験会のメンターさんをしています！<br />
+                    本制作では競技設計、あめちゃん号の制作、<br />
+                    今みなさんが見ているこのHPづくりを担当しました！<br /><br />
+                    ゼロワングランドスラムで見たロボット競技に感動して、<br />
+                    あめちゃんも作ってみたい！テックキッズのみんなに面白さを知ってほしい！と思い制作を始めました。<br />
+                    ロボコン出場経験のあるおっきーの全面協力のもと、あめちゃんの野望を形にすることができました！ありがとう！<br /><br />
+                    scratchを触ったことがある人であれば、簡単にロボットのコードを変更できるようにしてあります。<br />
+                    色々といじってみて、ロボットが思い通りに動く感動を、ぜひ体感してみてくださいっ！！
+                </p> 
+            </div>  
+            
+        </div>
+
+        <div class="afterword">
+            <img src="ame_profile1.png" alt="" class="afterword-img">
+            <p>あめちゃんです！主に体験会のメンターさんをしています！<br />
+                本制作では競技設計、あめちゃん号の制作、<br />
+                今みなさんが見ているこのHPづくりを担当しました！<br /><br />
+                ゼロワングランドスラムで見たロボット競技に感動して、<br />
+                あめちゃんも作ってみたい！テックキッズのみんなに面白さを知ってほしい！と思い制作を始めました。<br />
+                ロボコン出場経験のあるおっきーの全面協力のもと、あめちゃんの野望を形にすることができました！ありがとう！<br /><br />
+                scratchを触ったことがある人であれば、簡単にロボットのコードを変更できるようにしてあります。<br />
+                色々といじってみて、ロボットが思い通りに動く感動を、ぜひ体感してみてくださいっ！！
+            </p> 
+        </div>  
+        
+       
+       
+        
+          
+
+      
+
+    
+        
+            
+        <script>
+        const header = document.querySelector('header');
+            let prevY = window.scrollY; 
+            
+            window.addEventListener('scroll', () => {
+              const currentY = window.scrollY;
+              if (currentY < prevY) { 
+                header.classList.remove('hidden'); 
+              } else { 
+              if (currentY > 0) {
+                  header.classList.add('hidden'); 
+                }
+              }
+              prevY = currentY; 
+            });
+        </script>          
+           
+       
+        
+    </body>
+
+
+</html>
