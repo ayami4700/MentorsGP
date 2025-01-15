@@ -1,0 +1,181 @@
+/* TOPの動画部分の記述 */
+
+@font-face {
+    font-family: Moderne Sans;
+    src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/moderne_sans.woff2);
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    background:#BBF6F2;
+    background-size: cover;
+  }
+  
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .title-moji {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header {
+    height: 150px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    color: 		white;
+    transition: 0.4s;
+  }
+  header.hidden {
+    transform: translateY(-150px);
+  }
+  
+  header:hover {
+    background: rgba(255, 255, 255, 0.8);
+    color: 	#193251;
+    display: block;
+  }
+  
+  h1 {
+    font-family: Moderne Sans, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    width: 100%;
+    letter-spacing: 0.5rem;
+  }
+  
+  .title-moji h2:hover{
+    
+    letter-spacing: 20px;
+    
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: inherit;
+    padding: 1rem;
+  }
+  
+  h2 {
+    font-family: Century Schoolbook, Century Schoolbook L, Georgia, serif;
+    font-size: 8vmin;
+    text-align: center;
+    margin: 2rem 3rem 0;
+    mix-blend-mode: overlay;
+    color: 	#193251;
+    font-weight: 100;
+  }
+  /* ABOUT部分の記述 */
+  .main {
+      height: 700px;
+      padding-bottom: 80px;
+      background-color: 	#B4DDDF;
+      
+    }
+    
+    .about{
+      padding: 60px 100px;
+      color: 	#193251;
+      text-align:center;
+      
+    }
+
+    .about p {
+      letter-spacing: 1px;
+      vertical-align: middle;
+    }
+
+    .about p::first-letter {
+      font-weight: bold;
+      font-size: 40px;
+      color: white;
+    }
+  
+    .about-img{
+      padding-top:30px;
+      width: 500px;
+      float:left;
+      margin-right:40px;
+      position:relative;
+      top:0;
+    }
+  
+    .about-img:hover{
+      top:-10px;
+      transition:0.5s;
+    }
+  
+    .about p {
+      text-align:left;
+      padding-top:30px;
+      padding-right:100px;
+    }
+    
+    .fa-brands{
+     
+      padding-top:400px;
+      padding-right:100px; 
+    }
+  
+    /* process部分の記述 */
+    .process{
+      padding: 60px 100px;
+      color: 	#193251;
+      text-align:center;
+    }
+
+    .afterword{
+      padding: 60px 100px;
+      color: 	#193251;
+      text-align:center;
+      
+    }
+
+    .afterword-img{
+      padding-top:30px;
+      padding-bottom:30px;
+      width: 500px;
+      float:right;
+      margin-left:40px;
+      position:relative;
+      top:0;
+    }
+
+    .afterword-img:hover{
+      top:-10px;
+      transition:0.5s;
+    }
+
+    .afterword p {
+      text-align:left;
+      letter-spacing: 1px;
+      padding-top:30px;
+      padding-right:100px;
+    }
+
+    .afterword p::first-letter {
+      font-weight: bold;
+      font-size: 40px;
+      color: white;
+    }
+
+    
+    
+   
+    
+    
+  
