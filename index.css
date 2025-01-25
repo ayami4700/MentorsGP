@@ -83,12 +83,12 @@
   .main {
       height: 700px;
       padding-bottom: 80px;
-      background-color: 	#B4DDDF;
+      background: 	#B4DDDF;
       
     }
     
     .about{
-      padding: 60px 100px;
+      padding: 40px 80px;
       color: 	#193251;
       text-align:center;
       
@@ -97,6 +97,9 @@
     .about p {
       letter-spacing: 1px;
       vertical-align: middle;
+      text-align:left;
+      padding-top:30px;
+      padding-right:100px;
     }
 
     .about p::first-letter {
@@ -117,12 +120,6 @@
     .about-img:hover{
       top:-10px;
       transition:0.5s;
-    }
-  
-    .about p {
-      text-align:left;
-      padding-top:30px;
-      padding-right:100px;
     }
     
     .fa-brands{
@@ -171,6 +168,56 @@
       font-weight: bold;
       font-size: 40px;
       color: white;
+    }
+
+    .btn {
+      padding-top:400px;
+      width: 500px;
+      float:left;
+      margin-right:100px;
+      position:relative;
+      top:0;
+    }
+    .btn img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      width: 100%;
+      display: block;
+      -webkit-transition: .4s ease-in-out;
+      transition: .4s ease-in-out;
+    }
+    .btn:hover img:nth-of-type(2) {
+      opacity: 0;
+    }
+
+    .afterword2{
+      padding: 60px 100px;
+      color: 	#193251;
+      text-align:right;
+      
+    }
+
+    .afterword2 p {
+      letter-spacing: 1px;
+      vertical-align: middle;
+    }
+
+    .afterword2::first-letter {
+      font-weight: bold;
+      font-size: 40px;
+      color: white;
+    }
+  
+    .afterword2-img{
+      padding-top:30px;
+      width: 500px;
+      float:left;
+      margin-right:40px;
+      position:relative;
+      top:0;
     }
 
     
